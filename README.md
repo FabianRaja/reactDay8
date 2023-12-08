@@ -1,8 +1,13 @@
-# React + Vite
+# React Context
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+All the States and Values used in the Shopping Cart Page is passed using Context
 
-Currently, two official plugins are available:
+Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*Add Item ---> if add item is clicked it will reduce the stock value and increase the cart value
+*Remove Item --->  if remove item is clicked it will increase the stock value and decrease the cart value
+*SubTotal ---> It is calculated using quantity added using add item and the product Price
+*CheckOut ---> This button will calculate the total price using subtotal item and discount percentage and will show the saved price using discount
+
+
+- [Live Server](https://reactday8byfabianrajafernando.netlify.app/) 
